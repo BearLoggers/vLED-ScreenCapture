@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCaptureWinForms", "ScreenCaptureWinForms\ScreenCaptureWinForms.csproj", "{3A29C474-5C79-4450-998A-A0002AF5D191}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A29C474-5C79-4450-998A-A0002AF5D191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A29C474-5C79-4450-998A-A0002AF5D191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A29C474-5C79-4450-998A-A0002AF5D191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A29C474-5C79-4450-998A-A0002AF5D191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
