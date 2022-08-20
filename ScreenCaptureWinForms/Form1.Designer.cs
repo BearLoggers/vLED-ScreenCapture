@@ -17,6 +17,7 @@ partial class Form1
         {
             components.Dispose();
         }
+
         base.Dispose(disposing);
     }
 
@@ -28,11 +29,28 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-        this.components = new System.ComponentModel.Container();
-        this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "Form1";
+            this.components = new System.ComponentModel.Container();
+            this.MouseMoveTimer = new System.Windows.Forms.Timer(this.components);
+            this.SuspendLayout();
+            // 
+            // MouseMoveTimer
+            // 
+            this.MouseMoveTimer.Enabled = true;
+            this.MouseMoveTimer.Interval = 1000;
+            this.MouseMoveTimer.Tick += new System.EventHandler(this.MouseMoveTimer_Tick);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+
     }
 
     #endregion
+
+    private System.Windows.Forms.Timer MouseMoveTimer;
 }
